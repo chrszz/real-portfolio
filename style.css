@@ -73,14 +73,17 @@ body {
 }
 .projects {
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: #efefef;
   padding: 35px 10px;
 }
 .circle {
   background: #bbd20d;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
+}
+.highlight {
+  background-color: #bbd20d;
 }
 h1 {
   text-transform: uppercase;
@@ -125,7 +128,7 @@ h2 {
   color: #191919;
 }
 .aboutproject {
-  font-size: 13px;
+  font-size: 14px;
 }
 img {
   object-fit: cover;
@@ -134,4 +137,28 @@ img {
 }
 .collages {
   margin-top: 25px;
+}
+footer {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  color: #909090;
+  margin: 15px 0;
+}
+@media (max-width: 576px) {
+  .aboutproject {
+    font-size: 17px;
+  }
+  .navMenu a {
+    font-size: 14px;
+    width: 50px;
+  }
+  .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(77px);
+    transform: translateX(77px);
+  }
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(140px);
+    transform: translateX(140px);
+  }
 }
