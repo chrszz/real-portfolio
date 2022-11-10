@@ -31,8 +31,8 @@ body {
 }
 
 .navMenu .dot {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   background: #bbd20d;
   border-radius: 50%;
   opacity: 0;
@@ -115,6 +115,14 @@ h2 {
   border: 1px solid #bbd20d;
   background-color: #bbd20d;
   color: #fff;
+}
+.justlink {
+  color: #bbd20d;
+  text-decoration: none;
+  font-weight: 600;
+}
+.justlink:hover {
+  color: #191919;
 }
 .aboutproject {
   font-size: 13px;
