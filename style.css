@@ -2,7 +2,7 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 ::selection {
-  background: #f4f4f4;
+  background: #bbd20d;
 }
 
 .navMenu {
@@ -123,4 +123,7 @@ img {
   object-fit: cover;
   width: 190px;
   height: 190px;
+}
+.collages {
+  margin-top: 25px;
 }
