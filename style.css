@@ -146,19 +146,35 @@ footer {
   margin: 15px 0;
 }
 @media (max-width: 576px) {
+  h1 {
+    color: #d8d8d8;
+  }
+  h2 {
+    font-size: 24px;
+  }
   .aboutproject {
     font-size: 17px;
   }
+  .morelink {
+    margin-top: 20px;
+  }
   .navMenu a {
     font-size: 14px;
-    width: 50px;
+    width: 55px;
   }
   .navMenu a:nth-child(2):hover ~ .dot {
-    -webkit-transform: translateX(77px);
-    transform: translateX(77px);
+    -webkit-transform: translateX(80px);
+    transform: translateX(80px);
   }
   .navMenu a:nth-child(3):hover ~ .dot {
-    -webkit-transform: translateX(140px);
-    transform: translateX(140px);
+    -webkit-transform: translateX(150px);
+    transform: translateX(150px);
+  }
+  footer {
+    font-size: 14px;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
   }
 }
